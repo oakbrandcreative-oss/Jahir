@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+
+    <!-- Verti CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        html { scroll-behavior:smooth; }
+        .logo img { max-height:60px; }
+        section { padding:70px 0; }
+        .hero { text-align:center; padding:120px 0; }
+        .services-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+        .service-card{
+            border:1px solid #ddd;
+            border-radius:8px;
+            padding:25px;
+            background:#fff;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="page-wrapper">
+
+    <!-- ================= HEADER ================= -->
+
+    <div id="header-wrapper">
+        <header id="header" class="container">
+
+            <!-- CHANGE LOGO HERE -->
+            <div class="logo">
+                <a href="#home">
+                    <img src="images/logo.png" alt="Company Logo">
+                </a>
+            </div>
+
+            <!-- MENU -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero container">
+        <h1>COMPANY NAME</h1>
+        <p>Short introduction about your company.</p>
+
+        <p>
+            <a href="#contact" class="button large">Contact Us</a>
+        </p>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="container">
+
+        <h2>About</h2>
+
+        <p>
+            Replace this text with your company description.
+        </p>
+
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+
+    <section id="services" class="container">
+
+        <h2>Services</h2>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <h3>Service 1</h3>
+                <p>Description.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Service 2</h3>
+                <p>Description.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Service 3</h3>
+                <p>Description.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>Service 4</h3>
+                <p>Description.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="container">
+
+        <h2>Contact</h2>
+
+        <p><strong>Phone:</strong> +00 000 0000</p>
+        <p><strong>Email:</strong> info@company.com</p>
+        <p><strong>Address:</strong> Company Address</p>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <div id="footer-wrapper">
+        <footer id="footer" class="container">
+            <p>&copy; COMPANY NAME. All rights reserved.</p>
+        </footer>
+    </div>
+
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
